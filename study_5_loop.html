@@ -13,10 +13,35 @@
 2. for 구문
 
 */
-	document.write("hello world<br/>");
-//	for (i=0; i<10; i++){
-//		alert(i);
-//	}
+
+/* while 반복문 연습
+	var i=0;
+	while(i<10){
+		document.write("hello world "+i+"<br/>");
+		i = i + 1;
+	}
+*/
+
+/* for 반복문 연습
+	for(i = 0; i < 100; i++){
+		if(i === 5){
+			//break;
+			continue;
+		}
+		document.write("hello world "+(i*2)+"<br/>");
+	}
+*/
+
+/* for 반복문의 중첩*/
+	for(i = 0; i < 10; i++){
+		for(var j = 0; j < 10; j++){
+			document.write("hello world "+i+j+"<br/>");
+		}		
+	}
+
 </script>
 </body>
 </html>
+
+
+

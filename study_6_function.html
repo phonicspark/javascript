@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+
+/*
+	function numbering(){
+	i = 0;
+	while(i < 10){
+		document.write(i+"<br/>");
+		i += 1;
+	}//유지보수의 용이. maintenance.
+	}
+	numbering();
+	numbering();
+	numbering();
+	numbering();
+	numbering();
+*/
+
+/*함수의 입력
+
+	function get_argument(arg){ 
+	//arg는 매개변수로 영어로는 parameter
+		return arg;
+	}
+
+	alert(get_argument(1));
+	alert(get_argument(2));
+	//1, 2, 값 자체는 한국어로 인자, 영어로는 argument.
+
+	function vector(vec1, vec2){
+		return vec1*vec2		
+	}
+
+	alert(vector(10, 20));
+*/
+
+/*함수의 출력
+	function get_member1(){
+		return 'phonicspark';
+	}
+
+	function get_member2(){
+		return 'sniper14';
+	}
+
+	alert(get_member1());
+	alert(get_member2());
+*/
+/* 다양한 정의방법 */
+
+	numbering = function(){
+		i = 0;
+		while(i < 10){
+			document.write(i);
+			i += 1;
+		}
+	}
+	numbering();
+
+
+	(function(){
+		i = 0;
+		while(i < 10){
+		document.write(i);
+		i += 1;}
+	})(); // 임명함수
+
+
+</script>
+</body>
+</html>
