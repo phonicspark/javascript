@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8" />
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+/*
+		if(true){
+			alert('result:true');
+		}
+
+		if(false){
+			alert('result:true');
+		}
+
+		if(true){
+			alert(1);
+			alert(2);
+			alert(3);
+			alert(4);
+		}
+*/
+/*
+	//변수를 선언하도록 합니다. 
+	var date = new Date();
+	var hour = date.getHours();
+	var second = date.getSeconds();
+
+	//조건문을 넣어보세요.
+		if(hour > 12){
+			prompt('오전입니다.');
+		} else {
+			prompt('오후입니다.'+hour+second);
+		}
+*/
+
+	var id = prompt('아이디를 입력해주세요.');
+	var password = prompt('비밀번호를 입력해주세요');
+/*
+	if(id == 'phonicspark'){
+		if(password == '1111'){
+			alert('로그인 하셨습니다.'+id+'님 반갑습니다.');
+		} else{
+			alert('입장불가');
+		}
+		alert('아이디가 일치합니다.');
+	} else{
+		alert('꺼져주세요.');
+	}
+*/
+/*
+	// && 연산자로 코드를 훨씬 간편하게 작성할 수 있다. 
+	if(id == 'phonicspark' && password == '1111'){
+			alert('로그인 하셨습니다.'+id+'님 반갑습니다.');
+		} else{
+			alert('입장불가');
+		}
+*/
+	// ||는 좌우 하나라도 true면 true다. 
+
+	if((id==='phonicspark' || id==='sniper14' || id==='marine4') && password==='1111'){
+
+		alert('인증했습니다.');
+	} else{
+		alert('인증에 실패했습니다.');
+	}
+</script>
+</body>
+</html>
+
+
+
+
+

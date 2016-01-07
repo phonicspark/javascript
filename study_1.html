@@ -5,7 +5,25 @@
 </head>
 <body>
 <script type="text/javascript">
-	alert(1);
+	//alert(1); // 정수를 사용하여 처음 스크립트를 사용. 
+	// -2, -1, 0, 1, 2 등은 정수. 
+	// 1.1, 0.5 등 소수점이 존재하는 것은 실수.
+	// 정수와 실수 존재 자체는 그렇게 중요한 게 아님. 
+	// 그냥 포괄적으로 number로 부르는데, 
+	// 기존 언어에서는 정수와 실수를 int와 float 등으로 확실히 구분.
+
+	//alert(1+1);
+	//alert(2*9);//*는 영어로 에스트리크(?) 라고 한다고 함. 
+	//alert(6/2);//나누기는 수학표식과는 다르게 6나누기2 순으로 표기됨을 기억하자. 
+	//만약에 alert이 자꾸 뜨는 게 골치아프면, console.log를 활용하자. 
+	console.log(62*9); 
+	//console.log를 사용하는 방법은 간단하다. google chrome에서 view>developer>developer tools로 들어가면 웹브라우저 하단에 consoloe로그창이 나오는데, 여기에서 연산을 직접 할 수 있어 매우 간편하고, 또한 alert이 자꾸 뜨지 않아 매우 편리하다. 
+	alert(Math.pow(3,2)); //math안에 power(제곱) 명령이 있어서 3을 2제곱하는 것.
+	alert(Math.round(10.6)); //round는 반올림.
+	alert(Math.ceil(10.2)); //ceil은 올림. 
+	alert(Math.floor(10.2)); //내림
+	alert(Math.sqrt(8)); //root
+	console.log(Math.round(100 * Math.random()));
 </script>
 </body>
 </html>
